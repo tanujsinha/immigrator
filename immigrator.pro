@@ -1,11 +1,13 @@
-HEADERS += \
-    immigrator.h \
-    mainwindow.h
+DESTDIR = bin
+OBJECTS_DIR = build
+MOC_DIR = build
+UI_DIR = build
 
-SOURCES += \
-    immigrator.cpp \
-    mainwindow.cpp \
-    main.cpp
+HEADERS += ./immigrator.h \
+    ./mainwindow.h
 
-FORMS += \
-    mainwindow.ui
+SOURCES += ./immigrator.cpp \
+    ./mainwindow.cpp \
+    ./main.cpp
+
+FORMS += ./mainwindow.ui
