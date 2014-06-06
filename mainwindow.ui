@@ -40,7 +40,7 @@
      <string>MAC Address</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="MAC">
+   <widget class="MacAddress_lineEdit" name="MAC">
     <property name="geometry">
      <rect>
       <x>10</x>
