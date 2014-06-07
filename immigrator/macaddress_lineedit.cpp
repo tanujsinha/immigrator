@@ -16,7 +16,7 @@ MacAddress_lineEdit::~MacAddress_lineEdit()
 
 int Check_hex(char byte)
 {
-    if((byte!='A') || (byte!='a') || (byte!='B') || (byte!='b')
+    /*if((byte!='A') || (byte!='a') || (byte!='B') || (byte!='b')
         || (byte!='C') || (byte!='c') || (byte!='D') || (byte!='d')
         || (byte!='E') || (byte!='e') || (byte!='F') || (byte!='f'))
     {
@@ -34,7 +34,8 @@ int Check_hex(char byte)
     else
     {
         return 0;
-    }
+    }*/
+    return 1;
 }
 
 void MacAddress_lineEdit::MacAddress_lineEdit_textEdited(QString text)
