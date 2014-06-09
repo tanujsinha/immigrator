@@ -5,6 +5,8 @@
 #include <QObject>
 #include <QKeyEvent>
 
+#define MAC_LENGTH  6
+
 class MacAddress_lineEdit : public QLineEdit
 {
     Q_OBJECT
